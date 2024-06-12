@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cart {
+  width: 90%;
+  max-width: 725px;
+  margin: 50px auto;
+  font-size: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cart img {
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.totaltext {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  font-size: 20px;
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.price {
+  font-family: 'Lexend Peta', sans-serif;
+  font-size: 50px;
+}
+
+.Koshik {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.header_left {
+  font-family: 'Lexend Peta', sans-serif;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+}
+
+.transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+  animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom right, blue, pink);
+  background-size: cover;
+  background-position: center;
+}
+
+#footer {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#footer > div {
+  width: 100%;
+  text-align: center;
+}
+
+.tg {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
